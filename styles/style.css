@@ -123,13 +123,10 @@ Media Queries
     .container{
         width: 100%;
     }
-    .players{
+    .players, .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player{
+    .player, .blog{
         flex-direction: column;
-    }
-    .blog, .courses{
-        display: none;
     }
 }
