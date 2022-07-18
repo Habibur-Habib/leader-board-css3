@@ -114,3 +114,17 @@ hr{
     color: #aeaeae;
 }
 
+/* --------------
+Media Queries
+----------------*/
+
+/* Mobile Devices  */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
